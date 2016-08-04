@@ -1,0 +1,39 @@
+{
+  "name": "wdio-browserstack-service",
+  "version": "0.1.0",
+  "description": "WebdriverIO service for better Browserstack integration",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itszero/wdio-sauce-service.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "browserstack",
+    "test",
+    "automation",
+    "cloud",
+    "wdio-service"
+  ],
+  "author": "Zero Cho <itszero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itszero/wdio-browserstack-service/issues"
+  },
+  "homepage": "https://github.com/itszero/wdio-browserstack-service#readme",
+  "dependencies": {
+    "browserstack-local": "^1.1.0",
+    "request": "^2.34.0",
+    "request-promise": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-buble": "^0.7.0",
+    "gulp-cli": "^1.2.2"
+  }
+}
