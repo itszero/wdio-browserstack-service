@@ -13,7 +13,7 @@ npm install --save-dev wdio-browserstack-service
 
 ## Configuration
 
-WebdriverIO has Browserstack support out of the box. You should simply set `user` and `key` in your `wdio.conf.js` file. This service plugin provdies supports for [Browserstack Tunnel](https://wiki.saucelabs.com/display/DOCS/Using+Sauce+Connect+for+Testing+Behind+the+Firewall+or+on+Localhost). Set `browserstackTunnel: true` also to activate this feature.
+WebdriverIO has Browserstack support out of the box. You should simply set `user` and `key` in your `wdio.conf.js` file. This service plugin provdies supports for [Browserstack Tunnel](https://wiki.saucelabs.com/display/DOCS/Using+Sauce+Connect+for+Testing+Behind+the+Firewall+or+on+Localhost). Set `browserstackLocal: true` also to activate this feature.
 
 ```js
 // wdio.conf.js
@@ -51,6 +51,10 @@ Type: `Object`<br>
 Default: `{}`
 
 ----
+
+# Known Issues
+
+- It's more of how webdriverio desigend the multi-process model. It is extremely hard if not impossible to reliable transfer localIdentifier to child-processes. We recommend to use it without the identifier at this moment, which will create an account-wide local tunnel.
 
 # Credits
 
