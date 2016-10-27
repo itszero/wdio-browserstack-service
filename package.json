@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/itszero/wdio-browserstack-service#readme",
   "dependencies": {
-    "browserstack-local": "^1.1.0",
+    "browserstack-local": "^1.2.0",
     "request": "^2.34.0",
     "request-promise": "^4.1.0"
   },
