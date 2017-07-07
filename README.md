@@ -39,7 +39,7 @@ Your Browserstack access key.
 Type: `String`
 
 ### browserstackLocal
-Set this to true to enable routing connections from Browserstack cloud through your computer.
+Set this to true to enable routing connections from Browserstack cloud through your computer. You will also need to set `browserstack.local` to true in browser capabilities.
 
 Type: `Boolean`<br>
 Default: `false`
