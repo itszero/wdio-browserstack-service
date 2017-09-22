@@ -11,6 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/itszero/wdio-browserstack-service.git"
   },
+  "files": [
+    "index.js",
+    "launcher.js",
+    "build"
+  ],
   "keywords": [
     "webdriverio",
     "wdio",
