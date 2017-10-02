@@ -58,6 +58,19 @@ describe('BrowserstackService', function() {
 			sinon.assert.called(browserstack._update);
 			sinon.match(browserstack.failures, 0);
 		});
+
+		it('should call functions in the expected order', function() {
+			sinon.spy(browserstack,'_printSessionURL');
+			sinon.spy(browserstack,'_reset_failures');
+
+			browserstack.onReload(1,2);
+			sinon.assert.callOrder(browserstack._update,
+				browserstack._printSessionURL,
+				browserstack._reset_failures);
+
+			browserstack._printSessionURL.restore;
+			browserstack._reset_failures.restore;
+		});
 	});
 
 	describe('#_printSessionURL', function() {
