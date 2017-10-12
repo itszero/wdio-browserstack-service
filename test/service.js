@@ -33,7 +33,6 @@ describe('BrowserstackService', function() {
     request.get.restore();
   });
 
-
   describe('#onReload()', function() {
     before(function(){
       sinon.spy(browserstack, '_update');
@@ -42,7 +41,6 @@ describe('BrowserstackService', function() {
     after(function(){
       browserstack._update.restore();
     });
-
 
     it('should update and get session', function() {
       browserstack.onReload(1, 2);
