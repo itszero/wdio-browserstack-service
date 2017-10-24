@@ -5,7 +5,8 @@
   "main": "build/index.js",
   "scripts": {
     "build": "gulp",
-    "test": "mocha"
+    "test": "mocha",
+    "format": "./node_modules/.bin/prettier --write *.js **/*.js"
   },
   "repository": {
     "type": "git",
@@ -39,8 +40,13 @@
     "sinon": "^4.0.0"
   },
   "devDependencies": {
+    "cucumber": "^3.0.6",
     "gulp": "^3.9.1",
     "gulp-buble": "^0.7.0",
-    "gulp-cli": "^1.2.2"
+    "gulp-cli": "^1.2.2",
+    "prettier": "^1.7.4"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
