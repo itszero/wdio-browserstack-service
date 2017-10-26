@@ -63,3 +63,9 @@ Default: `{}`
 - ... and all other dependencies
 
 For more information on WebdriverIO see the [homepage](http://webdriver.io).
+
+# Sponsors
+
+![Browserstack](./assets/browserstack.svg)
+
+Thanks for [Browserstack](https://browserstack.com/) to provide us with a free account for automated tests.
