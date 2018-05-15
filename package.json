@@ -35,16 +35,16 @@
   "homepage": "https://github.com/itszero/wdio-browserstack-service#readme",
   "dependencies": {
     "browserstack-local": "^1.2.0",
-    "mocha": "^3.5.3",
     "request": "^2.81.0",
-    "request-promise": "^4.2.1",
-    "sinon": "^4.0.0"
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "cucumber": "^3.0.6",
     "gulp": "^3.9.1",
     "gulp-buble": "^0.7.0",
     "gulp-cli": "^1.2.2",
+    "mocha": "^3.5.3",
+    "sinon": "^4.0.0",
     "prettier": "^1.7.4"
   },
   "prettier": {
