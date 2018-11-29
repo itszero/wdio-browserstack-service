@@ -6,8 +6,8 @@
   "scripts": {
     "build": "gulp",
     "test": "mocha",
-    "lint": "./node_modules/.bin/prettier *.js **/*.js --list-different",
-    "format": "./node_modules/.bin/prettier *.js **/*.js --write",
+    "lint": "./node_modules/.bin/prettier lib/*.js test/*.js --list-different",
+    "format": "./node_modules/.bin/prettier lib/*.js test/*.js --write",
     "release": "release-it",
     "prepare": "gulp"
   },
