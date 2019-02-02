@@ -1,6 +1,11 @@
 WebdriverIO Browserstack Service
 ==========
 
+# We've moved!
+
+This project is now part of the webdriverio monorepo. Find the new home for this project
+[here](https://github.com/webdriverio/webdriverio/tree/master/packages/wdio-browserstack-service).
+
 > A WebdriverIO service that manages local tunnel and job metadata for Browserstack users.
 
 ## Installation
